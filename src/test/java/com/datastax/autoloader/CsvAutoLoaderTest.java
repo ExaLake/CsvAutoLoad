@@ -9,11 +9,11 @@ import java.util.UUID;
  * Created by alexandergauthier on 1/5/18.
  */
 public class CsvAutoLoaderTest {
-    public static final String PATH =  "/Users/alexandergauthier/Downloads/crime_2017.csv";
+    public static final String PATH = "/Users/cleaner/Downloads/Crime.csv";
     public static final String DELIM = ",";
-    public static final String ADDR = "localhost";
+    public static final String ADDR = "10.200.177.140";
     public static final String KEYSPACE = "staging";
-    public static final String TABLE = "crimes_2017";
+    public static final String TABLE = "crimes_2017_2";
 
     @Test
     public void main() throws Exception {
